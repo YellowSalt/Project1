@@ -1,3 +1,20 @@
-h2{
-    color: indigo;
+h1 {
+    color: brown;
+}
+h2 {
+    color: yellow;
+    background-color: rgb(89, 17,27);
+}
+button {
+    color: magenta;
+    background-color: black;
+}
+p {
+    color: olive;
+}
+
+body {
+    background-color: #00b7ff;
+    /* background-color: #c5e; */
+    /* This could also be #cc55ee */
 }
