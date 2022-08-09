@@ -3,6 +3,10 @@ h1 {
     font-weight: 400;
     text-decoration: red wavy underline;
     letter-spacing: 8px;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    
 }
 
 p {
