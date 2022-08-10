@@ -33,6 +33,8 @@ span {
 
 .post a {
     color: #606c38;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 footer a{
@@ -66,3 +68,37 @@ input[type="password"] {
 /* a[href*="google"]{
     color: magenta;
 } */
+
+button:hover{
+    background-color: #cdb4db;
+    color: #f1faee;
+}
+
+.post button:hover{
+    background-color: #606c38;
+    color: #dda15e;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: red;
+}
+
+.post:nth-of-type(odd){
+    background-color: #cdb4db;
+}
+
+h2::first-letter {
+    font-size: 40px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: yellow;
+}
